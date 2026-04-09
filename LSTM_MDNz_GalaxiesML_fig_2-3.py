@@ -12,7 +12,7 @@ spect_z_all = data[:, 1]
 zconf_all = data[:, 2]
 crps_all = data[:,3]
 
-zconf_threshold = 0.9
+zconf_threshold = 0.25
 mask = zconf_all > zconf_threshold
 photo_z_mask = photo_z_all[mask]
 spect_z_mask = spect_z_all[mask]
