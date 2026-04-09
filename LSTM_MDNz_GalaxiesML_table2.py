@@ -3,9 +3,9 @@ import numpy as np
 
 # 1. Read data
 data = np.loadtxt('all_samples.dat')
-data1 = np.loadtxt('zconf_080_samples.dat')
-data2 = np.loadtxt('zconf_090_samples.dat')
-data3 = np.loadtxt('zconf_095_samples.dat')
+data1 = np.loadtxt('zconf_005_samples.dat')
+data2 = np.loadtxt('zconf_025_samples.dat')
+data3 = np.loadtxt('zconf_050_samples.dat')
 
 x = data[:, 0]  
 
