@@ -336,9 +336,9 @@ def calculate_zconf(pdf, x, mean_x):
         z_m = mean_x[i]
         
         if z_m < 1:
-            alpha = 0.3
+            alpha = 0.05
         else:
-            alpha = 0.1 * (1 + z_m)
+            alpha = 0.05 
         
         delta = alpha * (1 + z_m)
         z_min = z_m - delta
